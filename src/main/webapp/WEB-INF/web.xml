@@ -85,4 +85,14 @@
 	<security-role>
 		<role-name>User</role-name>
 	</security-role>
+
+	<servlet>
+		<servlet-name>pathjsp</servlet-name>
+		<jsp-file>/admin/index.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>pathjsp</servlet-name>
+		<url-pattern>/admin/*</url-pattern>
+	</servlet-mapping>
 </web-app>
